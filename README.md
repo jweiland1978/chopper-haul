@@ -2,9 +2,13 @@
 
 A small arcade helicopter game: fly a rescue chopper over a flooded farm county, winch up stranded people and their stuff, and fend off the Buzzard Bros.
 
-**This is a test build (Stage 1).** It has one zone (3 sorties and the Buzzard Blimp), touch and keyboard controls, and a local high-score table. It's not finished.
+**These are test builds.** It's not finished.
+
+- **Stage 2 (newest):** the full story: 4 zones and 16 fights on a County Map (bosses: Buzzard Blimp, Magnet Truck, Junk Twister, Vulture One), 13 kinds of cargo, 8 enemies, 7 pickups, typed briefings, live chiptune music, and the Endless mode "The Long Rain" (unlocks after zone 1).
+- **Stage 1:** one zone (3 sorties and the Buzzard Blimp), touch and keyboard controls, and a local high-score table.
 
 - Play: https://jweiland1978.github.io/chopper-haul/
+- Stage 2 build: `/stage2/`
 - Stage 1 build: `/stage1/`
 
 ## Made with AI
@@ -13,4 +17,4 @@ This game was made with AI using Grok Build. Design and tuning by Jeff (BlueWate
 
 ## Running locally
 
-Serve the folder with any static web server, for example `python3 -m http.server`, then open `/stage1/`.
+Serve the folder with any static web server, for example `python3 -m http.server`, then open `/stage2/` or `/stage1/`.

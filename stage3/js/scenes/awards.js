@@ -1,9 +1,9 @@
-import Phaser from '../phaser.js?v=1';
-import { CONFIG } from '../config.js?v=1';
-import { Save } from '../save.js?v=1';
-import { ACHIEVEMENTS } from '../data/achievements.js?v=1';
-import { Audio } from '../audio.js?v=1';
-import { addButton, addText, clearButtons, pinOverlay } from '../ui.js?v=1';
+import Phaser from '../phaser.js?v=2';
+import { CONFIG } from '../config.js?v=2';
+import { Save } from '../save.js?v=2';
+import { ACHIEVEMENTS } from '../data/achievements.js?v=2';
+import { Audio } from '../audio.js?v=2';
+import { addButton, addText, clearButtons, pinOverlay } from '../ui.js?v=2';
 
 export class AwardsScene extends Phaser.Scene {
   constructor() {

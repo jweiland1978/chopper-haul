@@ -1,4 +1,4 @@
-import { rankFor as rankFn } from '../config.js?v=1';
+import { rankFor as rankFn } from '../config.js?v=2';
 
 export const SORTIES = [
   {
@@ -327,7 +327,6 @@ export const SORTIES = [
       { t: 48, type: 'rival', x: 3000, y: 150 },
       { t: 58, type: 'jetski', x: 3300, y: 540 },
       { t: 70, type: 'geese', x: 3600, y: 160 },
-      { t: 80, type: 'duster', x: 4000, y: 140 },
     ],
   },
   {

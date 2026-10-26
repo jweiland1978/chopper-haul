@@ -1,5 +1,5 @@
-import { Save } from './save.js?v=1';
-import { TUNING } from './config.js?v=1';
+import { Save } from './save.js?v=2';
+import { TUNING } from './config.js?v=2';
 
 function noiseBuffer(ctx, seconds) {
   const length = Math.max(1, Math.floor(ctx.sampleRate * seconds));

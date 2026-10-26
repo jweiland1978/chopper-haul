@@ -1,10 +1,10 @@
-import { TUNING } from './config.js?v=1';
-import { Session } from './session.js?v=1';
-import { Save, writeProgress } from './save.js?v=1';
-import { CARGO } from './data/cargo.js?v=1';
-import { ACHIEVEMENTS } from './data/achievements.js?v=1';
-import { qaLog } from './qalog.js?v=1';
-import { showToast } from './toast.js?v=1';
+import { TUNING } from './config.js?v=2';
+import { Session } from './session.js?v=2';
+import { Save, writeProgress } from './save.js?v=2';
+import { CARGO } from './data/cargo.js?v=2';
+import { ACHIEVEMENTS } from './data/achievements.js?v=2';
+import { qaLog } from './qalog.js?v=2';
+import { showToast } from './toast.js?v=2';
 
 const BY_ID = {};
 for (let i = 0; i < ACHIEVEMENTS.length; i += 1) BY_ID[ACHIEVEMENTS[i].id] = ACHIEVEMENTS[i];

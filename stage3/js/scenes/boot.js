@@ -1,9 +1,9 @@
-import Phaser from '../phaser.js?v=1';
-import { CONFIG } from '../config.js?v=1';
-import { Save } from '../save.js?v=1';
-import { Audio } from '../audio.js?v=1';
-import { addText } from '../ui.js?v=1';
-import { buildTextures } from '../textures.js?v=1';
+import Phaser from '../phaser.js?v=2';
+import { CONFIG } from '../config.js?v=2';
+import { Save } from '../save.js?v=2';
+import { Audio } from '../audio.js?v=2';
+import { addText } from '../ui.js?v=2';
+import { buildTextures } from '../textures.js?v=2';
 
 export class BootScene extends Phaser.Scene {
   constructor() {

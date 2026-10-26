@@ -1,4 +1,4 @@
-import { TUNING } from '../config.js?v=1';
+import { TUNING } from '../config.js?v=2';
 
 const P = TUNING.cargo.pieces;
 

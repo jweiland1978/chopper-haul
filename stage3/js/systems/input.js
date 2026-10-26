@@ -1,9 +1,9 @@
-import Phaser from '../phaser.js?v=1';
-import { CONFIG, TUNING } from '../config.js?v=1';
-import { Session } from '../session.js?v=1';
-import { Save } from '../save.js?v=1';
-import { Audio } from '../audio.js?v=1';
-import { addRoundButton, addButton, addText, isPhone, phoneMinSize } from '../ui.js?v=1';
+import Phaser from '../phaser.js?v=2';
+import { CONFIG, TUNING } from '../config.js?v=2';
+import { Session } from '../session.js?v=2';
+import { Save } from '../save.js?v=2';
+import { Audio } from '../audio.js?v=2';
+import { addRoundButton, addButton, addText, isPhone, phoneMinSize } from '../ui.js?v=2';
 
 export function isTouchDevice() {
   return ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);

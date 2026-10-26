@@ -1,6 +1,6 @@
-import { CONFIG, TUNING } from './config.js?v=1';
-import { CARGO } from './data/cargo.js?v=1';
-import { ACHIEVEMENTS } from './data/achievements.js?v=1';
+import { CONFIG, TUNING } from './config.js?v=2';
+import { CARGO } from './data/cargo.js?v=2';
+import { ACHIEVEMENTS } from './data/achievements.js?v=2';
 
 const DEFAULT_SETTINGS = {
   sfx: 0.85,

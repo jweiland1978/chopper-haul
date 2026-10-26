@@ -1,17 +1,17 @@
-import Phaser from '../phaser.js?v=1';
-import { CONFIG, TUNING } from '../config.js?v=1';
-import { Session } from '../session.js?v=1';
-import { rng } from '../rng.js?v=1';
-import { Audio } from '../audio.js?v=1';
-import { CARGO, CARGO_LIST } from '../data/cargo.js?v=1';
-import { ENEMIES, ENEMY_ALIAS } from '../data/enemies.js?v=1';
-import { getSortie } from '../data/zones.js?v=1';
-import { SpritePool } from './pools.js?v=1';
-import { Fx, screenShake, flashImage, noteFlash } from './fx.js?v=1';
-import { BossSys } from './bosses.js?v=1';
-import { awardKill, awardDeliver, resetCombo, tickCombo } from './scoring.js?v=1';
-import { qaLog } from '../qalog.js?v=1';
-import { onDeliver, onFridge, onLongRain } from '../achievements.js?v=1';
+import Phaser from '../phaser.js?v=2';
+import { CONFIG, TUNING } from '../config.js?v=2';
+import { Session } from '../session.js?v=2';
+import { rng } from '../rng.js?v=2';
+import { Audio } from '../audio.js?v=2';
+import { CARGO, CARGO_LIST } from '../data/cargo.js?v=2';
+import { ENEMIES, ENEMY_ALIAS } from '../data/enemies.js?v=2';
+import { getSortie } from '../data/zones.js?v=2';
+import { SpritePool } from './pools.js?v=2';
+import { Fx, screenShake, flashImage, noteFlash } from './fx.js?v=2';
+import { BossSys } from './bosses.js?v=2';
+import { awardKill, awardDeliver, resetCombo, tickCombo } from './scoring.js?v=2';
+import { qaLog } from '../qalog.js?v=2';
+import { onDeliver, onFridge, onLongRain } from '../achievements.js?v=2';
 
 function ropeCap() {
   return Session.ropeMax || CONFIG.ROPE_MAX;

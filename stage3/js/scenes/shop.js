@@ -1,10 +1,10 @@
-import Phaser from '../phaser.js?v=1';
-import { CONFIG, TUNING } from '../config.js?v=1';
-import { Save, writeProgress } from '../save.js?v=1';
-import { upgradeLevel } from '../session.js?v=1';
-import { Audio } from '../audio.js?v=1';
-import { onMaxed } from '../achievements.js?v=1';
-import { addButton, addText, clearButtons, pinOverlay, isPhone, phoneMinSize } from '../ui.js?v=1';
+import Phaser from '../phaser.js?v=2';
+import { CONFIG, TUNING } from '../config.js?v=2';
+import { Save, writeProgress } from '../save.js?v=2';
+import { upgradeLevel } from '../session.js?v=2';
+import { Audio } from '../audio.js?v=2';
+import { onMaxed } from '../achievements.js?v=2';
+import { addButton, addText, clearButtons, pinOverlay, isPhone, phoneMinSize } from '../ui.js?v=2';
 
 const ORDER = ['armor', 'winch', 'rope', 'gun', 'rockets', 'shocks', 'lucky'];
 

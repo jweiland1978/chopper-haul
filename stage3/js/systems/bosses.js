@@ -1,10 +1,10 @@
-import { CONFIG, TUNING } from '../config.js?v=1';
-import { Session } from '../session.js?v=1';
-import { rng } from '../rng.js?v=1';
-import { qaLog } from '../qalog.js?v=1';
-import { awardKill } from './scoring.js?v=1';
-import { onBoss } from '../achievements.js?v=1';
-import { screenShake, flashImage, noteFlash } from './fx.js?v=1';
+import { CONFIG, TUNING } from '../config.js?v=2';
+import { Session } from '../session.js?v=2';
+import { rng } from '../rng.js?v=2';
+import { qaLog } from '../qalog.js?v=2';
+import { awardKill } from './scoring.js?v=2';
+import { onBoss } from '../achievements.js?v=2';
+import { screenShake, flashImage, noteFlash } from './fx.js?v=2';
 
 const NAMES = {
   blimp: 'BUZZARD BLIMP',

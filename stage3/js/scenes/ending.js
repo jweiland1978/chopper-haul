@@ -1,7 +1,7 @@
-import Phaser from '../phaser.js?v=1';
-import { CONFIG } from '../config.js?v=1';
-import { addButton, addText, runTypewriter, clearButtons, pinOverlay } from '../ui.js?v=1';
-import { Audio } from '../audio.js?v=1';
+import Phaser from '../phaser.js?v=2';
+import { CONFIG } from '../config.js?v=2';
+import { addButton, addText, runTypewriter, clearButtons, pinOverlay } from '../ui.js?v=2';
+import { Audio } from '../audio.js?v=2';
 
 const LINES = [
   'Vulture One coughs, and both Buzzard brothers step out onto one parachute. They are still arguing about whose stick it was.',

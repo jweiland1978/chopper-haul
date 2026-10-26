@@ -1,16 +1,16 @@
-import Phaser from '../phaser.js?v=1';
-import { CONFIG } from '../config.js?v=1';
-import { Session } from '../session.js?v=1';
-import { Save, writeProgress } from '../save.js?v=1';
-import { grantSortieBucks } from '../meta.js?v=1';
-import { onSortieEnd } from '../achievements.js?v=1';
-import { Audio } from '../audio.js?v=1';
-import { getSortie, rankFor } from '../data/zones.js?v=1';
-import { addText, clearButtons, pinOverlay } from '../ui.js?v=1';
-import { InputCtl, makePauseOverlay, makeConfirm } from '../systems/input.js?v=1';
-import { World } from '../systems/sim.js?v=1';
-import { Bot } from '../systems/bot.js?v=1';
-import { qaLog } from '../qalog.js?v=1';
+import Phaser from '../phaser.js?v=2';
+import { CONFIG } from '../config.js?v=2';
+import { Session } from '../session.js?v=2';
+import { Save, writeProgress } from '../save.js?v=2';
+import { grantSortieBucks } from '../meta.js?v=2';
+import { onSortieEnd } from '../achievements.js?v=2';
+import { Audio } from '../audio.js?v=2';
+import { getSortie, rankFor } from '../data/zones.js?v=2';
+import { addText, clearButtons, pinOverlay } from '../ui.js?v=2';
+import { InputCtl, makePauseOverlay, makeConfirm } from '../systems/input.js?v=2';
+import { World } from '../systems/sim.js?v=2';
+import { Bot } from '../systems/bot.js?v=2';
+import { qaLog } from '../qalog.js?v=2';
 
 export class PlayScene extends Phaser.Scene {
   constructor() {

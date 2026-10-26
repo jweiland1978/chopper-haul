@@ -1,5 +1,5 @@
-import { CONFIG, TUNING } from './config.js?v=2';
-import { Audio } from './audio.js?v=2';
+import { CONFIG, TUNING } from './config.js?v=3';
+import { Audio } from './audio.js?v=3';
 
 const BUTTONS = [];
 

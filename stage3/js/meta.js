@@ -1,6 +1,6 @@
-import { TUNING } from './config.js?v=2';
-import { Session } from './session.js?v=2';
-import { Save } from './save.js?v=2';
+import { TUNING } from './config.js?v=3';
+import { Session } from './session.js?v=3';
+import { Save } from './save.js?v=3';
 
 export function sortieBucks(sortieScore, rank, delivered, endless, endlessTime) {
   const b = TUNING.bucks;

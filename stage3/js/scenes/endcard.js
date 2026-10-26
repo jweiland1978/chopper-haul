@@ -1,13 +1,13 @@
-import Phaser from '../phaser.js?v=2';
-import { CONFIG, TUNING } from '../config.js?v=2';
-import { Session, resetRun } from '../session.js?v=2';
-import { Save, qualifies, insertScore, writeProgress } from '../save.js?v=2';
-import { grantSortieBucks } from '../meta.js?v=2';
-import { Audio } from '../audio.js?v=2';
-import { SORTIES, getSortie, rankFor } from '../data/zones.js?v=2';
-import { addButton, addText, clearButtons, pinOverlay, isPhone, phoneMinSize } from '../ui.js?v=2';
-import { noteJingle } from '../systems/fx.js?v=2';
-import { isTouchDevice } from '../systems/input.js?v=2';
+import Phaser from '../phaser.js?v=3';
+import { CONFIG, TUNING } from '../config.js?v=3';
+import { Session, resetRun } from '../session.js?v=3';
+import { Save, qualifies, insertScore, writeProgress } from '../save.js?v=3';
+import { grantSortieBucks } from '../meta.js?v=3';
+import { Audio } from '../audio.js?v=3';
+import { SORTIES, getSortie, rankFor } from '../data/zones.js?v=3';
+import { addButton, addText, clearButtons, pinOverlay, isPhone, phoneMinSize } from '../ui.js?v=3';
+import { noteJingle } from '../systems/fx.js?v=3';
+import { isTouchDevice } from '../systems/input.js?v=3';
 
 export class EndCardScene extends Phaser.Scene {
   constructor() {

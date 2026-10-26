@@ -1,9 +1,9 @@
-import { CONFIG } from '../config.js?v=2';
-import { Session } from '../session.js?v=2';
-import { Audio } from '../audio.js?v=2';
-import { qaLog } from '../qalog.js?v=2';
-import { noteWreck } from '../achievements.js?v=2';
-import { comboPop } from './fx.js?v=2';
+import { CONFIG } from '../config.js?v=3';
+import { Session } from '../session.js?v=3';
+import { Audio } from '../audio.js?v=3';
+import { qaLog } from '../qalog.js?v=3';
+import { noteWreck } from '../achievements.js?v=3';
+import { comboPop } from './fx.js?v=3';
 
 export function bumpCombo(wreck) {
   const prev = Session.comboT > 0 ? (Session.combo | 0) : 0;

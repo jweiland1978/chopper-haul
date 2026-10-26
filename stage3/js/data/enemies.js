@@ -1,4 +1,4 @@
-import { TUNING } from '../config.js?v=2';
+import { TUNING } from '../config.js?v=3';
 
 const S = TUNING.enemies.stats;
 

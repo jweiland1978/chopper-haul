@@ -1,5 +1,5 @@
-import { CONFIG } from '../config.js?v=2';
-import { Session } from '../session.js?v=2';
+import { CONFIG } from '../config.js?v=3';
+import { Session } from '../session.js?v=3';
 
 export class Bot {
   constructor(world, input) {

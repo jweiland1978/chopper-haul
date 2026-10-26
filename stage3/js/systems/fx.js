@@ -1,7 +1,7 @@
-import { Audio } from '../audio.js?v=2';
-import { Save } from '../save.js?v=2';
-import { CONFIG, TUNING } from '../config.js?v=2';
-import { ParticlePool } from './pools.js?v=2';
+import { Audio } from '../audio.js?v=3';
+import { Save } from '../save.js?v=3';
+import { CONFIG, TUNING } from '../config.js?v=3';
+import { ParticlePool } from './pools.js?v=3';
 
 const fxTotals = { shakes: 0, flashes: 0, pops: 0, jingles: 0 };
 

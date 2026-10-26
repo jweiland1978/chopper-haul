@@ -1,15 +1,15 @@
-import { QA_ALLOWED } from './build.js?v=2';
-import { CONFIG } from './config.js?v=2';
-import { rng } from './rng.js?v=2';
-import { Session, resetRun } from './session.js?v=2';
-import { Save, writeProgress } from './save.js?v=2';
-import { SORTIES, rankFor } from './data/zones.js?v=2';
-import { listButtons, layoutInfo } from './ui.js?v=2';
-import { QaEvents, qaClear } from './qalog.js?v=2';
-import { Audio } from './audio.js?v=2';
-import { unlock as unlockAch } from './achievements.js?v=2';
-import { toastsShown } from './toast.js?v=2';
-import { fxCounts } from './systems/fx.js?v=2';
+import { QA_ALLOWED } from './build.js?v=3';
+import { CONFIG } from './config.js?v=3';
+import { rng } from './rng.js?v=3';
+import { Session, resetRun } from './session.js?v=3';
+import { Save, writeProgress } from './save.js?v=3';
+import { SORTIES, rankFor } from './data/zones.js?v=3';
+import { listButtons, layoutInfo } from './ui.js?v=3';
+import { QaEvents, qaClear } from './qalog.js?v=3';
+import { Audio } from './audio.js?v=3';
+import { unlock as unlockAch } from './achievements.js?v=3';
+import { toastsShown } from './toast.js?v=3';
+import { fxCounts } from './systems/fx.js?v=3';
 
 export function qaEnabled() {
   if (!QA_ALLOWED) return false;

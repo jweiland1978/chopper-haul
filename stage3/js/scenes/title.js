@@ -1,10 +1,10 @@
-import Phaser from '../phaser.js?v=2';
-import { Session, resetRun } from '../session.js?v=2';
-import { Save } from '../save.js?v=2';
-import { Audio } from '../audio.js?v=2';
-import { CONFIG, TUNING } from '../config.js?v=2';
-import { addButton, addText, clearButtons, pinOverlay, isPhone, phoneMinSize } from '../ui.js?v=2';
-import { isTouchDevice } from '../systems/input.js?v=2';
+import Phaser from '../phaser.js?v=3';
+import { Session, resetRun } from '../session.js?v=3';
+import { Save } from '../save.js?v=3';
+import { Audio } from '../audio.js?v=3';
+import { CONFIG, TUNING } from '../config.js?v=3';
+import { addButton, addText, clearButtons, pinOverlay, isPhone, phoneMinSize } from '../ui.js?v=3';
+import { isTouchDevice } from '../systems/input.js?v=3';
 
 export class TitleScene extends Phaser.Scene {
   constructor() {

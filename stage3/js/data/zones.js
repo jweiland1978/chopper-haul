@@ -1,4 +1,4 @@
-import { rankFor as rankFn } from '../config.js?v=2';
+import { rankFor as rankFn } from '../config.js?v=3';
 
 export const SORTIES = [
   {

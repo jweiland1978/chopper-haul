@@ -126,7 +126,8 @@ export const TUNING = {
     gooseTurn: 1.3, // rad/s a goose can turn while chasing (lower = easier to dodge)
     gooseChase: 8, // seconds a flock chases before it gets bored and flies off
     goosePass: 2.2, // seconds a goose flies on past after ramming you
-    flareSpeed: 280, // px/s, jet-ski flares
+    flareSpeed: 225, // px/s, jet-ski flares
+    rivalRams: false, // false = flying into the rival chopper does no damage (its shots still do)
     fridgeArc: 290, // upward px/s of a lobbed fridge
     fridgeGravity: 430, // px/s^2 on a fridge
     rivalMirror: 2.6, // how fast the rival matches your height

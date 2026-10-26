@@ -1,9 +1,9 @@
-import Phaser from '../phaser.js?v=2';
-import { CONFIG } from '../config.js?v=2';
-import { Session } from '../session.js?v=2';
-import { getSortie } from '../data/zones.js?v=2';
-import { addButton, addText, runTypewriter, clearButtons, pinOverlay } from '../ui.js?v=2';
-import { Audio } from '../audio.js?v=2';
+import Phaser from '../phaser.js?v=3';
+import { CONFIG } from '../config.js?v=3';
+import { Session } from '../session.js?v=3';
+import { getSortie } from '../data/zones.js?v=3';
+import { addButton, addText, runTypewriter, clearButtons, pinOverlay } from '../ui.js?v=3';
+import { Audio } from '../audio.js?v=3';
 
 export class BriefingScene extends Phaser.Scene {
   constructor() {

@@ -1,5 +1,5 @@
-import { CONFIG, TUNING } from './config.js?v=2';
-import { Save } from './save.js?v=2';
+import { CONFIG, TUNING } from './config.js?v=3';
+import { Save } from './save.js?v=3';
 
 export const Session = {
   mode: 'story',

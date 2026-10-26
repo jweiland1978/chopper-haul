@@ -1,17 +1,17 @@
-import Phaser from '../phaser.js?v=2';
-import { CONFIG, TUNING } from '../config.js?v=2';
-import { Session } from '../session.js?v=2';
-import { rng } from '../rng.js?v=2';
-import { Audio } from '../audio.js?v=2';
-import { CARGO, CARGO_LIST } from '../data/cargo.js?v=2';
-import { ENEMIES, ENEMY_ALIAS } from '../data/enemies.js?v=2';
-import { getSortie } from '../data/zones.js?v=2';
-import { SpritePool } from './pools.js?v=2';
-import { Fx, screenShake, flashImage, noteFlash } from './fx.js?v=2';
-import { BossSys } from './bosses.js?v=2';
-import { awardKill, awardDeliver, resetCombo, tickCombo } from './scoring.js?v=2';
-import { qaLog } from '../qalog.js?v=2';
-import { onDeliver, onFridge, onLongRain } from '../achievements.js?v=2';
+import Phaser from '../phaser.js?v=3';
+import { CONFIG, TUNING } from '../config.js?v=3';
+import { Session } from '../session.js?v=3';
+import { rng } from '../rng.js?v=3';
+import { Audio } from '../audio.js?v=3';
+import { CARGO, CARGO_LIST } from '../data/cargo.js?v=3';
+import { ENEMIES, ENEMY_ALIAS } from '../data/enemies.js?v=3';
+import { getSortie } from '../data/zones.js?v=3';
+import { SpritePool } from './pools.js?v=3';
+import { Fx, screenShake, flashImage, noteFlash } from './fx.js?v=3';
+import { BossSys } from './bosses.js?v=3';
+import { awardKill, awardDeliver, resetCombo, tickCombo } from './scoring.js?v=3';
+import { qaLog } from '../qalog.js?v=3';
+import { onDeliver, onFridge, onLongRain } from '../achievements.js?v=3';
 
 function ropeCap() {
   return Session.ropeMax || CONFIG.ROPE_MAX;
@@ -876,7 +876,7 @@ export class World {
           this.enemyShoot(e);
         }
       }
-      if (!stunned && !e.scared && !(e.passT > 0) && this.invuln <= 0 && !Session.godMode && overlap(e.x, e.y, e.w, e.h, this.px, this.py, 70, 28)) {
+      if (!stunned && !e.scared && !(e.passT > 0) && !(e.type === 'rival' && !TUNING.enemies.rivalRams) && this.invuln <= 0 && !Session.godMode && overlap(e.x, e.y, e.w, e.h, this.px, this.py, 70, 28)) {
         this.hurtSrc = e.def.id || 'enemy';
         this.hurtPlayer();
         if (e.type === 'goose') {

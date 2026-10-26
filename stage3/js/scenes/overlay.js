@@ -1,7 +1,7 @@
-import Phaser from '../phaser.js?v=2';
-import { CONFIG } from '../config.js?v=2';
-import { Save } from '../save.js?v=2';
-import { drainToasts, noteToast } from '../toast.js?v=2';
+import Phaser from '../phaser.js?v=3';
+import { CONFIG } from '../config.js?v=3';
+import { Save } from '../save.js?v=3';
+import { drainToasts, noteToast } from '../toast.js?v=3';
 
 export class OverlayScene extends Phaser.Scene {
   constructor() {
